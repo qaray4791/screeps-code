@@ -9,7 +9,7 @@ module.exports.loop = function () {
     var desiredUpgraders = 4;
     var desiredBuilders = 3;
     var desiredRepairers = 2;
-    console.log('github stuff')
+    console.log('github stuff');
 
     var harvesters = _.filter(Game.creeps, (creep) => creep.memory.role == 'harvester');
     if (harvesters.length < desiredHarvesters) {
